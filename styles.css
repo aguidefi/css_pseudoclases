@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Challenge 1 */
+
+.box1 {
+  background-color: aqua;
+  width: fit-content;
+  border-radius: 8px;
+  padding: 15px;
+}
+
+.a-link:hover {
+  cursor: pointer;
+  transition: 0.3s;
+  background-color: red;
+  border-radius: 6px;
+}
+
+/* Challenge 2 */
+
+.box2 {
+  background-color: violet;
+  width: fit-content;
+  border-radius: 8px;
+  padding: 15px;
+}
+.master:hover {
+  cursor: pointer;
+  transition: 0.3s;
+  background-color: red;
+  border-radius: 6px;
+  width: fit-content;
+}
+
+/* Challenge 3 */
+
+.box3 {
+  background-color: aqua;
+  width: fit-content;
+  border-radius: 8px;
+  padding: 15px;
+}
+
+.box3 p:first-child {
+  background-color: red;
+  border-radius: 6px;
+  padding: 2px;
+  width: fit-content;
+}
+
+/* Challenge 4 */
+
+.box4 {
+  background-color: violet;
+  width: fit-content;
+  border-radius: 8px;
+  padding: 15px;
+}
+
+input {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: black;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: aqua;
+}
+
+input:focus {
+  background-color: red;
+}
+
+/* Challenge 5 */
+
+.box5 {
+  background-color: aqua;
+  width: fit-content;
+  border-radius: 8px;
+  padding: 15px;
+}
+.intro1::first-line {
+  background-color: red;
+}
+
+/* Challenge 6 */
+
+.box6 {
+  background-color: violet;
+  width: fit-content;
+  border-radius: 8px;
+  padding: 15px;
+}
+.intro2::first-letter {
+  background-color: red;
+}
+
+/* Challenge 7 */
+
+.box7 {
+  background-color: aqua;
+  width: fit-content;
+  border-radius: 8px;
+  padding: 15px;
+}
+.box7 p::before, .box7 p::after {
+  content: '😀';
+
